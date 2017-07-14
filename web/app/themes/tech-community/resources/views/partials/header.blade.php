@@ -8,7 +8,11 @@
       <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="/sponsors" title="Sponsors">Sponsors</a>
       <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="/events" title="Events">Events</a>
       <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="/contact" title="Contact">Contact</a>
-      <a class="link dim dark-gray f6 f5-l dib" href="/sign-in" title="Sign In">Sign In</a>
+      <?php if ( is_user_logged_in() ) : ?>
+        <a class="link dim dark-gray f6 f5-l dib" href="<?php echo wp_logout_url( home_url() ); ?>" title="Sign Out">Sign Out</a>
+      <?php else: ?>
+        <a class="link dim dark-gray f6 f5-l dib" href="/sign-in" title="Sign In">Sign In</a>
+      <?php endif; ?>
     </div>
   </nav>
 <?php endif; ?>
