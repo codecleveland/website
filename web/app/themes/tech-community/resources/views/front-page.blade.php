@@ -15,7 +15,7 @@
             <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/sponsors">Sponsors</a>
             <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/events">Events</a>
             <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/contact">Contact</a>
-            <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/join">Sign Up</a>
+            <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/sign-in">Sign In</a>
           </div>
         </nav>
         <div class="tc-l mt4 mt5-m mt6-l ph3">
