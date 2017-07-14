@@ -182,7 +182,7 @@ add_action('init', function() {
       'label'               => $labels['name'],
       'description'         => __( 'Tech-specific meetup groups that exist in Northeast Ohio', 'tech-community' ),
       'labels'              => $labels,
-      'supports'            => array( 'title', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+      'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
       'taxonomies'          => array( 'category', 'post_tag' ),
       'rewrite'             => array( 'slug' => 'meetup-groups', 'with_front' => FALSE ),
       'hierarchical'        => true,
@@ -198,7 +198,7 @@ add_action('init', function() {
       'exclude_from_search' => false,
       'publicly_queryable'  => true,
       'map_meta_cap'        => true,
-      'capability_type'     => 'meetup_group',
+      'capability_type'     => 'post',
     );
 
     register_post_type( 'meetup_group', $args );
@@ -227,7 +227,7 @@ add_action('init', function() {
       'label'               => $labels['name'],
       'description'         => __( 'Tech-specific events that are happening in Northeast Ohio', 'tech-community' ),
       'labels'              => $labels,
-      'supports'            => array( 'title', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+      'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
       'taxonomies'          => array( 'category', 'post_tag' ),
       'rewrite'             => array( 'slug' => 'events', 'with_front' => FALSE ),
       'hierarchical'        => true,
@@ -243,7 +243,7 @@ add_action('init', function() {
       'exclude_from_search' => false,
       'publicly_queryable'  => true,
       'map_meta_cap'        => true,
-      'capability_type'     => 'event',
+      'capability_type'     => 'post',
     );
 
     register_post_type( 'event', $args );
@@ -272,7 +272,7 @@ add_action('init', function() {
       'label'               => $labels['name'],
       'description'         => __( 'Companies and individuals that sponsor Code Cleveland.', 'tech-community' ),
       'labels'              => $labels,
-      'supports'            => array( 'title', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+      'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
       'taxonomies'          => array( 'category', 'post_tag' ),
       'rewrite'             => array( 'slug' => 'sponsors', 'with_front' => FALSE ),
       'hierarchical'        => true,
@@ -288,7 +288,7 @@ add_action('init', function() {
       'exclude_from_search' => false,
       'publicly_queryable'  => true,
       'map_meta_cap'        => true,
-      'capability_type'     => 'sponsor',
+      'capability_type'     => 'post',
     );
 
     register_post_type( 'sponsor', $args );
