@@ -1,6 +1,13 @@
 <article @php(post_class())>
   <header>
     <h1 class="f1 lh-title tc">{{ get_the_title() }}</h1>
+    <time class="f2 lh-copy tc">
+      <?php
+        $date = get_field('event-date', false, false);
+        $date = new DateTime($date);
+        echo $date->format('l, F jS, Y');
+      ?>
+    </time>
   </header>
   <div class="f3 lh-copy">
     @php(the_content())
