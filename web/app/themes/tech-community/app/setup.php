@@ -206,7 +206,7 @@ add_action('init', function() {
 
     /**
      * event CPT
-     */
+     *
     $labels = array(
       'name'                => _x( 'Events', 'Post Type General Name', 'tech-community' ),
       'singular_name'       => _x( 'Event', 'Post Type Singular Name', 'tech-community' ),
@@ -247,7 +247,7 @@ add_action('init', function() {
     );
 
     register_post_type( 'event', $args );
-
+    */
 
     /**
      * sponsor CPT
