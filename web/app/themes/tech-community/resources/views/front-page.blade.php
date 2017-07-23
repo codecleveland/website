@@ -28,7 +28,7 @@
           <h2 class="fw1 f3 white-80 mt3 mb4">{{ get_bloginfo('description') }}</h2>
           <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/join">Join the Community</a>
           <span class="dib v-mid ph3 white-70 mb3">or</span>
-          <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="">Learn More</a>
+          <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="/manifesto">Learn More</a>
         </div>
       </div>
     </div>
