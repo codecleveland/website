@@ -70,7 +70,8 @@
     "yargs": "^7.1.0"
   },
   "dependencies": {
+    "jquery": "1.12.4 - 3",
     "tachyons-sass": "^4.7.1",
-    "jquery": "1.12.4 - 3"
+    "tooltip.js": "^1.1.4"
   }
 }
