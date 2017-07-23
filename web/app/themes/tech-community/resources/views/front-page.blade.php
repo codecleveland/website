@@ -15,7 +15,12 @@
             <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/sponsors">Sponsors</a>
             <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/events">Events</a>
             <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/contact">Contact</a>
-            <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/sign-in">Sign In</a>
+
+            <?php if ( is_user_logged_in() ) : ?>
+              <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="<?php echo wp_logout_url( home_url() ); ?>" title="Sign Out">Sign Out</a>
+            <?php else: ?>
+              <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/sign-in" title="Sign In">Sign In</a>
+            <?php endif; ?>
           </div>
         </nav>
         <div class="tc-l mt4 mt5-m mt6-l ph3">
