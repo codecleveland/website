@@ -10,7 +10,7 @@
         </div>
         <div class="dtc v-mid pl3">
           <h1 class="f6 f5-ns fw6 lh-title black mv0">{{$user->data->display_name}} </h1>
-          <h2 class="f6 fw4 mt0 mb0 black-60">{{$user->data->user_email}}</h2>
+          <h2 class="f6 fw4 mt0 mb0 black-60">Member</h2>
         </div>
         <div class="dtc v-mid">
           <form class="w-100 tr">
