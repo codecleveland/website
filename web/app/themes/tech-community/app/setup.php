@@ -295,7 +295,7 @@ add_action('init', function() {
 
     /**
      * job CPT
-     */
+     *
     $labels = array(
       'name'                => _x( 'Jobs', 'Post Type General Name', 'tech-community' ),
       'singular_name'       => _x( 'Job', 'Post Type Singular Name', 'tech-community' ),
@@ -336,5 +336,7 @@ add_action('init', function() {
     );
 
     register_post_type( 'job', $args );
+
+    */
 
 });
