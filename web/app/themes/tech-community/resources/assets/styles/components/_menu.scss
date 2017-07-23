@@ -1,0 +1,27 @@
+.submenu {
+  display: none;
+}
+
+.tooltip .submenu {
+  display: block !important;
+}
+
+nav .tooltip {
+  background: #fff;
+  padding: 1em 2em;
+  z-index: 1;
+  border-radius: 4px;
+  box-shadow: 0 4px 80px -8px rgba(0, 20, 60, 0.25);
+
+  .tooltip-arrow {
+    border-width: 0 8px 8px;
+    border-color: transparent transparent #fff;
+    top: -5px;
+    left: calc(50% - 8px);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 0 8px;
+  }
+}
