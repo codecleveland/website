@@ -203,33 +203,32 @@ add_action('init', function() {
 
     register_post_type( 'meetup_group', $args );
 
-
     /**
-     * event CPT
-     *
+     * Workspace CPT
+     */
     $labels = array(
-      'name'                => _x( 'Events', 'Post Type General Name', 'tech-community' ),
-      'singular_name'       => _x( 'Event', 'Post Type Singular Name', 'tech-community' ),
-      'menu_name'           => __( 'Events', 'tech-community' ),
-      'parent_item_colon'   => __( 'Parent Event:', 'tech-community' ),
-      'all_items'           => __( 'Events', 'tech-community' ),
-      'view_item'           => __( 'View Event', 'tech-community' ),
-      'add_new_item'        => __( 'Add New Event', 'tech-community' ),
+      'name'                => _x( 'Workspaces', 'Post Type General Name', 'tech-community' ),
+      'singular_name'       => _x( 'Workspace', 'Post Type Singular Name', 'tech-community' ),
+      'menu_name'           => __( 'Workspaces', 'tech-community' ),
+      'parent_item_colon'   => __( 'Parent Workspace:', 'tech-community' ),
+      'all_items'           => __( 'Workspaces', 'tech-community' ),
+      'view_item'           => __( 'View Workspace', 'tech-community' ),
+      'add_new_item'        => __( 'Add New Workspace', 'tech-community' ),
       'add_new'             => __( 'Add New', 'tech-community' ),
-      'edit_item'           => __( 'Edit Event', 'tech-community' ),
-      'update_item'         => __( 'Update Event', 'tech-community' ),
-      'search_items'        => __( 'Search Events', 'tech-community' ),
+      'edit_item'           => __( 'Edit Workspace', 'tech-community' ),
+      'update_item'         => __( 'Update Workspace', 'tech-community' ),
+      'search_items'        => __( 'Search Workspaces', 'tech-community' ),
       'not_found'           => __( 'Not found', 'tech-community' ),
       'not_found_in_trash'  => __( 'Not found in Trash', 'tech-community' ),
     );
 
     $args = array(
       'label'               => $labels['name'],
-      'description'         => __( 'Tech-specific events that are happening in Northeast Ohio', 'tech-community' ),
+      'description'         => __( 'Workspaces in Northeast Ohio', 'tech-community' ),
       'labels'              => $labels,
       'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
       'taxonomies'          => array( 'category', 'post_tag' ),
-      'rewrite'             => array( 'slug' => 'events', 'with_front' => FALSE ),
+      'rewrite'             => array( 'slug' => 'workspaces', 'with_front' => FALSE ),
       'hierarchical'        => true,
       'public'              => true,
       'show_ui'             => true,
@@ -237,7 +236,7 @@ add_action('init', function() {
       'show_in_nav_menus'   => true,
       'show_in_admin_bar'   => true,
       'show_in_rest'        => true,
-      'rest_base'           => 'events',
+      'rest_base'           => 'workspaces',
       'can_export'          => true,
       'has_archive'         => true,
       'exclude_from_search' => false,
@@ -246,8 +245,8 @@ add_action('init', function() {
       'capability_type'     => 'post',
     );
 
-    register_post_type( 'event', $args );
-    */
+    register_post_type( 'workspace', $args );
+
 
     /**
      * sponsor CPT
@@ -337,6 +336,51 @@ add_action('init', function() {
 
     register_post_type( 'job', $args );
 
+    */
+
+    /**
+     * event CPT
+     *
+    $labels = array(
+      'name'                => _x( 'Events', 'Post Type General Name', 'tech-community' ),
+      'singular_name'       => _x( 'Event', 'Post Type Singular Name', 'tech-community' ),
+      'menu_name'           => __( 'Events', 'tech-community' ),
+      'parent_item_colon'   => __( 'Parent Event:', 'tech-community' ),
+      'all_items'           => __( 'Events', 'tech-community' ),
+      'view_item'           => __( 'View Event', 'tech-community' ),
+      'add_new_item'        => __( 'Add New Event', 'tech-community' ),
+      'add_new'             => __( 'Add New', 'tech-community' ),
+      'edit_item'           => __( 'Edit Event', 'tech-community' ),
+      'update_item'         => __( 'Update Event', 'tech-community' ),
+      'search_items'        => __( 'Search Events', 'tech-community' ),
+      'not_found'           => __( 'Not found', 'tech-community' ),
+      'not_found_in_trash'  => __( 'Not found in Trash', 'tech-community' ),
+    );
+
+    $args = array(
+      'label'               => $labels['name'],
+      'description'         => __( 'Tech-specific events that are happening in Northeast Ohio', 'tech-community' ),
+      'labels'              => $labels,
+      'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+      'taxonomies'          => array( 'category', 'post_tag' ),
+      'rewrite'             => array( 'slug' => 'events', 'with_front' => FALSE ),
+      'hierarchical'        => true,
+      'public'              => true,
+      'show_ui'             => true,
+      'show_in_menu'        => true,
+      'show_in_nav_menus'   => true,
+      'show_in_admin_bar'   => true,
+      'show_in_rest'        => true,
+      'rest_base'           => 'events',
+      'can_export'          => true,
+      'has_archive'         => true,
+      'exclude_from_search' => false,
+      'publicly_queryable'  => true,
+      'map_meta_cap'        => true,
+      'capability_type'     => 'post',
+    );
+
+    register_post_type( 'event', $args );
     */
 
 });
