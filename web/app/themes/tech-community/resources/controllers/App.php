@@ -10,4 +10,9 @@ class App extends Controller
     {
         return get_bloginfo('name');
     }
+
+    public function users()
+    {
+        return get_users();
+    }
 }
