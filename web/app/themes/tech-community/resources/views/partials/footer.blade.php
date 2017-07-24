@@ -20,7 +20,7 @@
   <div class="mt4">
     <a href="/contact" class="f6 link dim gray dib mr3 mr4-ns">Send feedback</a>
     <a href="#" class="f6 link dim gray dib mr3 mr4-ns">Privacy</a>
-    <a href="#" class="f6 link dim gray dib">Terms</a>
+    <a href="#" class="f6 link dim gray dib mr3 mr4-ns">Terms</a>
     <a href="https://github.com/codecleveland/website" class="f6 link dim grab dib" target="_blank">Contribute</a>
   </div>
 </footer>

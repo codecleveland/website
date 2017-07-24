@@ -1,5 +1,6 @@
 // Base styles
 
+html,
 h1,
 h2,
 h3,
@@ -8,7 +9,9 @@ h5,
 h6,
 p,
 label,
-time {
+time,
+ul,
+li {
   font-family: 'Nunito', sans-serif;
   color: $black;
 }
