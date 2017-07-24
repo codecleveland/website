@@ -19,3 +19,24 @@ li {
 time {
   display: block;
 }
+
+
+/**
+ * 1. Pure CSS text truncation.
+ * 2. Hang/outdent the indicator.
+ */
+.c-reveal__content {
+  cursor: pointer;
+  white-space: nowrap; /* [1] */
+  overflow: hidden; /* [1] */
+  text-overflow: ellipsis; /* [1] */
+  padding-left: 1em; /* [2] */
+  text-indent: -1em; /* [2] */
+
+  /**
+   * Disable truncation when expanded.
+   */
+  .c-reveal[open] > & {
+    white-space: normal;
+  }
+}
