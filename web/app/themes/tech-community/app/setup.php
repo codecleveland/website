@@ -292,6 +292,52 @@ add_action('init', function() {
 
     register_post_type( 'sponsor', $args );
 
+
+    /**
+     * Bootcamp CPT
+     */
+    $labels = array(
+      'name'                => _x( 'Bootcamps', 'Post Type General Name', 'tech-community' ),
+      'singular_name'       => _x( 'Bootcamp', 'Post Type Singular Name', 'tech-community' ),
+      'menu_name'           => __( 'Bootcamps', 'tech-community' ),
+      'parent_item_colon'   => __( 'Parent Bootcamp:', 'tech-community' ),
+      'all_items'           => __( 'Bootcamps', 'tech-community' ),
+      'view_item'           => __( 'View Bootcamp', 'tech-community' ),
+      'add_new_item'        => __( 'Add New Bootcamp', 'tech-community' ),
+      'add_new'             => __( 'Add New', 'tech-community' ),
+      'edit_item'           => __( 'Edit Bootcamp', 'tech-community' ),
+      'update_item'         => __( 'Update Bootcamp', 'tech-community' ),
+      'search_items'        => __( 'Search Bootcamps', 'tech-community' ),
+      'not_found'           => __( 'Not found', 'tech-community' ),
+      'not_found_in_trash'  => __( 'Not found in Trash', 'tech-community' ),
+    );
+
+    $args = array(
+      'label'               => $labels['name'],
+      'description'         => __( 'Bootcamp partners of Code Cleveland.', 'tech-community' ),
+      'labels'              => $labels,
+      'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+      'taxonomies'          => array( 'category', 'post_tag' ),
+      'rewrite'             => array( 'slug' => 'bootcamps', 'with_front' => FALSE ),
+      'hierarchical'        => true,
+      'public'              => true,
+      'show_ui'             => true,
+      'show_in_menu'        => true,
+      'show_in_nav_menus'   => true,
+      'show_in_admin_bar'   => true,
+      'show_in_rest'        => true,
+      'rest_base'           => 'bootcamps',
+      'can_export'          => true,
+      'has_archive'         => true,
+      'exclude_from_search' => false,
+      'publicly_queryable'  => true,
+      'map_meta_cap'        => true,
+      'capability_type'     => 'post',
+    );
+
+    register_post_type( 'bootcamp', $args );
+
+
     /**
      * job CPT
      *
