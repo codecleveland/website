@@ -3,7 +3,7 @@
     @if($meetup)
 
       <header class="tc pv4 pv5-ns">
-        @if($meetup->group_photo)
+        @if( ! empty( $meetup->group_photo ) )
           <img src="{{$meetup->group_photo->photo_link}}" class="br-100 pa1 ba b--black-10 h3 w3" alt="avatar">
         @endif
         <h1 class="f5 f4-ns fw6 mid-gray"><a href="{{$meetup->link}}" title="{{$meetup->name}}">{{$meetup->name}}</a></h1>
