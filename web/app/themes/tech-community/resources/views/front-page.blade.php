@@ -2,7 +2,7 @@
 
 @section('content')
   <header class="sans-serif">
-    <div class="cover bg-left bg-center-l" style="background-image: url(https://api.mapbox.com/styles/v1/davekiss/cj4zw77tu13jn2sqo7xuhsl35/static/-81.695124,41.415285,9.00,0.00,0.00/1000x500@2x?access_token=pk.eyJ1IjoiZGF2ZWtpc3MiLCJhIjoiY2owNjAxZW5iMGt4MDMzcDMxZTRhYWdreiJ9.Ta-pzKAzPcFZ0aP0tjrP5Q)">
+    <div class="cover bg-left bg-center-l" style="background-image: url(@asset('images/cleveland-skyline-header.jpg'))">
       <div class="bg-black-80 pb5 pb6-m pb7-l">
         <nav class="dt w-100 mw8 center">
           <div class="dtc w2 v-mid pa3">

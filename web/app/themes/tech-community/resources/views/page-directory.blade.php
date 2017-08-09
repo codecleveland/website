@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="tc measure-wide">
+  <h1 class="f2">Directory</h1>
+  <p class="f4">Our directory provides a collection of passionate developers, designers, founders, and marketeers, all working to make Cleveland a better place.</p>
+</div>
 @if($users)
   <main class="mw6 center">
     @foreach($users as $user)

@@ -2,7 +2,8 @@
   "entry": {
     "main": [
       "./scripts/main.js",
-      "./styles/main.scss"
+      "./styles/main.scss",
+      "./images/cleveland-skyline-header.jpg"
     ],
     "customizer": [
       "./scripts/customizer.js"
