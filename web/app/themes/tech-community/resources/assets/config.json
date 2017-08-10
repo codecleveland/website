@@ -3,7 +3,8 @@
     "main": [
       "./scripts/main.js",
       "./styles/main.scss",
-      "./images/cleveland-skyline-header.jpg"
+      "./images/cleveland-skyline-header.jpg",
+      "./images/community.jpg"
     ],
     "customizer": [
       "./scripts/customizer.js"
