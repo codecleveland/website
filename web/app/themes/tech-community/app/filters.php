@@ -68,3 +68,12 @@ add_filter('template_include', function ($template) {
  * Tell WordPress how to find the compiled path of comments.blade.php
  */
 add_filter('comments_template', 'App\\template_path');
+
+
+/**
+ * Support Woocommerce template overrides in Sage 9
+ */
+add_filter('woocommerce_template_loader_files', function ($search_files, $default_file = '') {
+    $search_files[] = 'woocommerce.blade.php';
+    return $search_files;
+});
