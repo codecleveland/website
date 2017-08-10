@@ -1,24 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
-  <section class="mw7 center avenir">
-    <h2 class="baskerville fw1 ph3 ph0-l">Meetup Groups</h2>
-
+<article>
+  <h2 class="f3 fw4 pa3 mv0">Meetup Groups</h2>
+  <div class="cf pa2">
     @while(have_posts()) @php(the_post())
-      <article class="bt bb b--black-10">
-        <a class="db pv4 ph3 ph0-l no-underline black dim" href="{{ get_permalink() }}">
-          <div class="flex flex-column flex-row-ns">
-            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-              <img src="{{ get_the_post_thumbnail_url() }}" class="db" alt="{{ get_the_title() }}">
-            </div>
-            <div class="w-100 w-60-ns pl3-ns">
-              <h1 class="f3 fw1 baskerville mt0 lh-title">{{ get_the_title() }}</h1>
-              <p class="f6 f5-l lh-copy">@php(the_excerpt())</p>
-            </div>
-          </div>
+      <div class="fl w-50 w-25-m w-20-l pa2">
+        <a href="{{ get_permalink() }}" class="db link dim tc">
+          <img src="{{ get_the_post_thumbnail_url() }}" alt="{{ get_the_title() }}" class="w-100 db outline black-10"/>
+          <dl class="mt2 f6 lh-copy">
+            <dt class="clip">Name</dt>
+            <dd class="ml0 black truncate w-100">{{ get_the_title() }}</dd>
+            <dt class="clip">Description</dt>
+            <dd class="ml0 gray truncate w-100">@php(the_excerpt())</dd>
+          </dl>
         </a>
-      </article>
+      </div>
     @endwhile
-  </section>
-
+  </div>
+</article>
 @endsection
