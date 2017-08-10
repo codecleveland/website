@@ -64,4 +64,18 @@
       </div>
     </div>
   </header>
+  <div class="dt mw9 center pt0 pb5 pv5-m pv5-ns">
+    <div class="db dtc-ns v-mid ph2 pr2-ns pl3-ns measure">
+      <h3 class="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">For the dev community, <br />by the dev community</h3>
+      <p class="f4 lh-copy">
+        At our core, Code Cleveland is about building the community. We strive to bring people together from different backgrounds, disciplines, and skill levels to share their ideas, learn about new topics, and create lasting relationships.
+      </p>
+      <p class="f4 lh-copy">
+        We started this initiative to connect bright minds and provide an outlet for those who leverage technology to make Cleveland a better place.
+      </p>
+    </div>
+    <div class="db dtc-ns v-mid-ns">
+      <img src="@asset('images/community.jpg')" alt="A bright blue sky" class="w-100 mw6" />
+    </div>
+  </div>
 @endsection
