@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f4c109a907a54b2e62be0164e900b28d",
-    "content-hash": "ad0b7f5bd5bbd82304af952da19633f6",
+    "hash": "de94ef8b5e3807a80f2b4c5e1f6cc013",
+    "content-hash": "9af7bd09c00fe3d0a26ba37c1a3be60d",
     "packages": [
         {
             "name": "composer/installers",
@@ -559,15 +559,15 @@
         },
         {
             "name": "wpackagist-plugin/google-sitemap-generator",
-            "version": "4.0.8",
+            "version": "4.0.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
-                "reference": "tags/4.0.8"
+                "reference": "tags/4.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -579,15 +579,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.1.6",
+            "version": "3.1.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.1.6"
+                "reference": "tags/3.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.1.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.1.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -599,15 +599,15 @@
         },
         {
             "name": "wpackagist-plugin/profile-builder",
-            "version": "2.6.5",
+            "version": "2.6.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/profile-builder/",
-                "reference": "tags/2.6.5"
+                "reference": "tags/2.6.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/profile-builder.2.6.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/profile-builder.2.6.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -659,15 +659,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "4.5.8.1",
+            "version": "4.5.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/4.5.8.1"
+                "reference": "tags/4.5.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.5.8.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.5.10.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -699,15 +699,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-job-manager",
-            "version": "1.27.0",
+            "version": "1.28.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-job-manager/",
-                "reference": "tags/1.27.0"
+                "reference": "tags/1.28.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-job-manager.1.27.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-job-manager.1.28.0.zip",
                 "reference": null,
                 "shasum": null
             },
