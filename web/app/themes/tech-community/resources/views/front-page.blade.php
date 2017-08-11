@@ -128,7 +128,7 @@
   </div>
 
   <div class="pa4-l">
-    <form class="bg-light-red mw7 center pa4 br2-ns ba b--black-10">
+    <form class="bg-light-red mw7 center pa4 br2-ns ba b--black-10" action="//codecleveland.us16.list-manage.com/subscribe/post?u=d7868e3e3fb9d333bb67f08b6&amp;id=a85a7d6397">
       <fieldset class="cf bn ma0 pa0">
         <legend class="pa0 f5 f4-ns mb3 black-80">Sign up for our newsletter</legend>
         <div class="cf">
