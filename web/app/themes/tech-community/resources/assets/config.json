@@ -4,7 +4,11 @@
       "./scripts/main.js",
       "./styles/main.scss",
       "./images/cleveland-skyline-header.jpg",
-      "./images/community.jpg"
+      "./images/coding.jpg",
+      "./images/community.jpg",
+      "./images/desk-2.jpg",
+      "./images/rock-and-roll-hall-of-fame.jpg",
+      "./images/two-men-working.jpg"
     ],
     "customizer": [
       "./scripts/customizer.js"
