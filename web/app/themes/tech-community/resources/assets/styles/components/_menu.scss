@@ -1,7 +1,3 @@
-.submenu {
-  display: none;
-}
-
 .tooltip .submenu {
   display: block !important;
 }
@@ -24,4 +20,13 @@ nav .tooltip {
     position: absolute;
     margin: 0 8px;
   }
+}
+
+.submenu,
+.submenu li {
+  cursor: pointer;
+}
+
+.tippy-tooltip {
+  padding: 0.4rem 0;
 }

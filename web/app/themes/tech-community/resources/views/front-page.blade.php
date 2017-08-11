@@ -13,35 +13,35 @@
           <div class="dtc v-mid tr pa3">
             <a class="menu-item has-submenu f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/community">Community</a>
             <ul class="submenu list ma0 pa0 tc">
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/directory">Directory</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/meetup-groups">Meetup Groups</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/workspaces">Workspaces</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/jobs">Jobs</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/podcast">Podcast</a></li>
-              <li class="pv3"><a class="f5 fw6 db black link hover-blue" href="/slack">Slack</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/directory">Directory</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/meetup-groups">Meetup Groups</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/workspaces">Workspaces</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/jobs">Jobs</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/podcast">Podcast</a></li>
+              <li class="pv3 ph3"><a class="f5 fw6 db black link hover-blue" href="/slack">Slack</a></li>
             </ul>
 
             <a class="menu-item has-submenu f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/events">Events</a>
             <ul class="submenu list ma0 pa0 tc">
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/calendar">Calendar</a></li>
-              <li class="pv3"><a class="f5 fw6 db black link hover-blue" href="/happy-hour">Happy Hour</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/calendar">Calendar</a></li>
+              <li class="pv3 ph3"><a class="f5 fw6 db black link hover-blue" href="/happy-hour">Happy Hour</a></li>
             </ul>
 
             <a class="menu-item has-submenu f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/about">About</a>
             <ul class="submenu list ma0 pa0 tc">
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/manifesto">Manifesto</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/newsletter">Newsletter</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/blog">Blog</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/sponsors">Sponsors</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/volunteer">Volunteer</a></li>
-              <li class="pv3"><a class="f5 fw6 db black link hover-blue" href="/contact">Contact</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/manifesto">Manifesto</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/newsletter">Newsletter</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/blog">Blog</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/sponsors">Sponsors</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/volunteer">Volunteer</a></li>
+              <li class="pv3 ph3"><a class="f5 fw6 db black link hover-blue" href="/contact">Contact</a></li>
             </ul>
 
             <a class="menu-item has-submenu f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/learn">Learn to Code</a>
             <ul class="submenu list ma0 pa0 tc">
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/resources">Resources</a></li>
-              <li class="pv3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/bootcamps">Bootcamps</a></li>
-              <li class="pv3"><a class="f5 fw6 db black link hover-blue" href="/workshops">Workshops</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/resources">Resources</a></li>
+              <li class="pv3 ph3 bb b--black-05"><a class="f5 fw6 db black link hover-blue" href="/bootcamps">Bootcamps</a></li>
+              <li class="pv3 ph3"><a class="f5 fw6 db black link hover-blue" href="/workshops">Workshops</a></li>
             </ul>
 
             <a class="menu-item f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/shop">Apparel</a>
